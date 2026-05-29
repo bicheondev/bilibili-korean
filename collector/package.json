@@ -1,0 +1,15 @@
+{
+  "name": "bilibili-korean-collector",
+  "version": "1.0.0",
+  "description": "Bilibili UI 수집기",
+  "main": "collect.cjs",
+  "scripts": {
+    "collect": "node collect.cjs",
+    "analyze": "node analyze.cjs",
+    "push": "node push.cjs",
+    "all": "node collect.cjs && node analyze.cjs && node push.cjs"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}
